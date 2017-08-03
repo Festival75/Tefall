@@ -1,0 +1,17 @@
+mixin mainNavItem(title)
+    li.main-nav__item
+        a(href='javascript:void(0)').main-nav__link= title
+
+nav.main-nav
+    ul.main-nav__list
+        +mainNavItem('Мебель')
+        +mainNavItem('Бытовая техника')
+        +mainNavItem('Хранение вина')
+        +mainNavItem('Посуда')
+        +mainNavItem('Ножи')
+        +mainNavItem('Бар и хрусталь')
+        +mainNavItem('Сервировка')
+        +mainNavItem('Кухонная утварь')
+        +mainNavItem('Текстиль')
+    .header-search
+        +icon('search')

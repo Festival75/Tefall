@@ -8,81 +8,112 @@
     <meta name="keywords" content="">
     <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
-    <body>
+    <body class="index-page">
       <div class="wrapper">
         <header>
-          <div class="container">
-            <div class="logo header-logo">
-              <svg class="icon icon-logo ">
-                <use xlink:href="/static/img/svg/symbol/sprite.svg#logo"></use>
-              </svg>
+          <div class="header-top">
+            <div class="container">
+              <div class="logo header-logo">
+                <svg class="icon icon-logo ">
+                  <use xlink:href="/static/img/svg/symbol/sprite.svg#logo"></use>
+                </svg>
+              </div>
+              <div class="header-nav">
+                <ul class="header_nav__list">
+                  <li class="header_nav__item"><a class="header-nav__link header__phone" href="tel:88005553535">8 800 555 35 35</a></li>
+                  <li class="header_nav__item"><a class="header-nav__link header-nav__link--dotted" href>Обратный звонок</a></li>
+                  <li class="header_nav__item"><a class="header-nav__link" href>Адреса салонов</a></li>
+                </ul>
+                <ul class="header_nav__list">
+                  <li class="header_nav__item">
+                    <svg class="icon icon-howOrder ">
+                      <use xlink:href="/static/img/svg/symbol/sprite.svg#howOrder"></use>
+                    </svg><a class="header-nav__link" href="javascript:void(0)">Как заказать</a>
+                  </li>
+                  <li class="header_nav__item">
+                    <svg class="icon icon-payment ">
+                      <use xlink:href="/static/img/svg/symbol/sprite.svg#payment"></use>
+                    </svg><a class="header-nav__link" href="javascript:void(0)">Оплата</a>
+                  </li>
+                  <li class="header_nav__item">
+                    <svg class="icon icon-delivery ">
+                      <use xlink:href="/static/img/svg/symbol/sprite.svg#delivery"></use>
+                    </svg><a class="header-nav__link" href="javascript:void(0)">Доставка</a>
+                  </li>
+                </ul>
+                <ul class="header_nav__list">
+                  <li class="header_nav__item">
+                    <svg class="icon icon-location ">
+                      <use xlink:href="/static/img/svg/symbol/sprite.svg#location"></use>
+                    </svg><a class="header-nav__link" href="javascript:void(0)">Санкт-Петербург</a>
+                  </li>
+                  <li class="header_nav__item">
+                    <svg class="icon icon-login ">
+                      <use xlink:href="/static/img/svg/symbol/sprite.svg#login"></use>
+                    </svg><a class="header-nav__link" href="javascript:void(0)">Войти</a>
+                  </li>
+                  <li class="header_nav__item">
+                    <svg class="icon icon-register ">
+                      <use xlink:href="/static/img/svg/symbol/sprite.svg#register"></use>
+                    </svg><a class="header-nav__link" href="javascript:void(0)">Регистрация</a>
+                  </li>
+                </ul>
+                <ul class="header-nav__user">
+                  <li class="header_nav--user__item">
+                    <div class="header-nav__user--icon">
+                      <svg class="icon icon-equal ">
+                        <use xlink:href="/static/img/svg/symbol/sprite.svg#equal"></use>
+                      </svg><span class="header-nav__user--count">17</span>
+                    </div><a class="header-nav__link header-nav__link--user" href="javascript:void(0)">Сравнение</a>
+                  </li>
+                  <li class="header_nav--user__item">
+                    <div class="header-nav__user--icon">
+                      <svg class="icon icon-favorite ">
+                        <use xlink:href="/static/img/svg/symbol/sprite.svg#favorite"></use>
+                      </svg><span class="header-nav__user--count">4</span>
+                    </div><a class="header-nav__link header-nav__link--user" href="javascript:void(0)">Избраное</a>
+                  </li>
+                  <li class="header_nav--user__item">
+                    <div class="header-nav__user--icon">
+                      <svg class="icon icon-basket ">
+                        <use xlink:href="/static/img/svg/symbol/sprite.svg#basket"></use>
+                      </svg><span class="header-nav__user--count">23</span>
+                    </div><a class="header-nav__link header-nav__link--user" href="javascript:void(0)">Корзина</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="header-nav">
-              <ul class="header_nav__list">
-                <li class="header_nav__item"><a class="header-nav__link header__phone" href="tel:88005553535">8 800 555 35 35</a></li>
-                <li class="header_nav__item"><a class="header-nav__link" href>Обратный звонок</a></li>
-                <li class="header_nav__item"><a class="header-nav__link" href>Адреса салонов</a></li>
-              </ul>
-              <ul class="header_nav__list">
-                <li class="header_nav__item">
-                  <svg class="icon icon-howOrder ">
-                    <use xlink:href="/static/img/svg/symbol/sprite.svg#howOrder"></use>
-                  </svg><a class="header-nav__link" href="javascript:void(0)">Как заказать</a>
-                </li>
-                <li class="header_nav__item">
-                  <svg class="icon icon-payment ">
-                    <use xlink:href="/static/img/svg/symbol/sprite.svg#payment"></use>
-                  </svg><a class="header-nav__link" href="javascript:void(0)">Оплата</a>
-                </li>
-                <li class="header_nav__item">
-                  <svg class="icon icon-delivery ">
-                    <use xlink:href="/static/img/svg/symbol/sprite.svg#delivery"></use>
-                  </svg><a class="header-nav__link" href="javascript:void(0)">Доставка</a>
-                </li>
-              </ul>
-              <ul class="header_nav__list">
-                <li class="header_nav__item">
-                  <svg class="icon icon-location ">
-                    <use xlink:href="/static/img/svg/symbol/sprite.svg#location"></use>
-                  </svg><a class="header-nav__link" href="javascript:void(0)">Санкт-Петербург</a>
-                </li>
-                <li class="header_nav__item">
-                  <svg class="icon icon-login ">
-                    <use xlink:href="/static/img/svg/symbol/sprite.svg#login"></use>
-                  </svg><a class="header-nav__link" href="javascript:void(0)">Войти</a>
-                </li>
-                <li class="header_nav__item">
-                  <svg class="icon icon-register ">
-                    <use xlink:href="/static/img/svg/symbol/sprite.svg#register"></use>
-                  </svg><a class="header-nav__link" href="javascript:void(0)">Регистрация</a>
-                </li>
-              </ul>
-              <ul class="header-nav__user">
-                <li class="header_nav--user__item">
-                  <div class="header-nav__user--icon">
-                    <svg class="icon icon-equal ">
-                      <use xlink:href="/static/img/svg/symbol/sprite.svg#equal"></use>
-                    </svg><span class="header-nav__user--count">17</span>
-                  </div><a class="header-nav__link header-nav__link--user" href="javascript:void(0)">Сравнение</a>
-                </li>
-                <li class="header_nav--user__item">
-                  <div class="header-nav__user--icon">
-                    <svg class="icon icon-favorite ">
-                      <use xlink:href="/static/img/svg/symbol/sprite.svg#favorite"></use>
-                    </svg><span class="header-nav__user--count">4</span>
-                  </div><a class="header-nav__link header-nav__link--user" href="javascript:void(0)">Избраное</a>
-                </li>
-                <li class="header_nav--user__item">
-                  <div class="header-nav__user--icon">
-                    <svg class="icon icon-basket ">
-                      <use xlink:href="/static/img/svg/symbol/sprite.svg#basket"></use>
-                    </svg><span class="header-nav__user--count">23</span>
-                  </div><a class="header-nav__link header-nav__link--user" href="javascript:void(0)">Корзина</a>
-                </li>
-              </ul>
+          </div>
+          <div class="header-bottom">
+            <div class="container">
+              <nav class="main-nav">
+                <ul class="main-nav__list">
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Мебель</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Бытовая техника</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Хранение вина</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Посуда</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Ножи</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Бар и хрусталь</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Сервировка</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Кухонная утварь</a></li>
+                                <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0)">Текстиль</a></li>
+                </ul>
+                <div class="header-search">
+                  <svg class="icon icon-search ">
+                    <use xlink:href="/static/img/svg/symbol/sprite.svg#search"></use>
+                  </svg>
+                </div>
+              </nav>
             </div>
           </div>
         </header>
+        <section class="index-slider">
+          <div class="js-index-slider">
+            <div class="index-slider__item"><img class="index-slider__img" src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице"></div>
+            <div class="index-slider__item"><img class="index-slider__img" src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице"></div>
+            <div class="index-slider__item"><img class="index-slider__img" src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице"></div>
+          </div>
+        </section>
       </div>
       <script src="static/js/jquery.js"></script>
       <script src="static/js/libs.min.js"></script>

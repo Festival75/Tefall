@@ -1,29 +1,33 @@
 header
-    .container
-        .logo.header-logo
-            +icon('logo')
-        .header-nav
-            ul.header_nav__list
-                li.header_nav__item
-                    a(href="tel:88005553535").header-nav__link.header__phone 8 800 555 35 35
-                li.header_nav__item
-                    a(href).header-nav__link Обратный звонок
-                li.header_nav__item
-                    a(href).header-nav__link Адреса салонов
-            ul.header_nav__list
-                each object in nav.headerNavInfo
+    .header-top
+        .container
+            .logo.header-logo
+                +icon('logo')
+            .header-nav
+                ul.header_nav__list
                     li.header_nav__item
-                        +icon(object['icon'])
-                        a(href= object['link']).header-nav__link= object['title']
-            ul.header_nav__list
-                each object in nav.headerNavConnect
+                        a(href="tel:88005553535").header-nav__link.header__phone 8 800 555 35 35
                     li.header_nav__item
-                        +icon(object['icon'])
-                        a(href= object['link']).header-nav__link= object['title']
-            ul.header-nav__user
-                each object in nav.headerNavUser
-                    li.header_nav--user__item
-                        .header-nav__user--icon
+                        a(href).header-nav__link.header-nav__link--dotted Обратный звонок
+                    li.header_nav__item
+                        a(href).header-nav__link Адреса салонов
+                ul.header_nav__list
+                    each object in nav.headerNavInfo
+                        li.header_nav__item
                             +icon(object['icon'])
-                            span.header-nav__user--count= object['number']
-                        a(href= object['link']).header-nav__link.header-nav__link--user= object['title']
+                            a(href= object['link']).header-nav__link= object['title']
+                ul.header_nav__list
+                    each object in nav.headerNavConnect
+                        li.header_nav__item
+                            +icon(object['icon'])
+                            a(href= object['link']).header-nav__link= object['title']
+                ul.header-nav__user
+                    each object in nav.headerNavUser
+                        li.header_nav--user__item
+                            .header-nav__user--icon
+                                +icon(object['icon'])
+                                span.header-nav__user--count= object['number']
+                            a(href= object['link']).header-nav__link.header-nav__link--user= object['title']
+    .header-bottom
+        .container
+            include menu
