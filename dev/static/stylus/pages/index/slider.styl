@@ -1,2 +1,63 @@
+.index-slider__item
+  position relative
+
 .index-slider__img
   width 100%
+
+
+.index-slider
+
+  &>.container
+    absolute($top:0,$bottom:0,$left:50%)
+    z-index 1
+    transform translateX(-50%)
+
+  .slick-dots
+    absolute($bottom:300px)
+
+
+    li
+      margin-bottom 10px
+      cursor pointer
+
+      &:last-child
+        margin-bottom 0
+
+.index-slider__dots
+  display block
+  size(16px)
+  border 2px solid #ffffff
+  border-radius 50%
+
+.slick-active
+  .index-slider__dots
+    background-color #fff
+
+.index-slider__controls
+  position absolute
+  size(50px)
+  background-color #fff
+  cursor pointer
+  z-index 1
+
+  .icon
+    absolute-center()
+    size(21px,12px)
+
+.index-slider__controls--next
+  absolute($bottom:300px)
+
+.index-slider__controls--pref
+  absolute($bottom:350px)
+
+.index-slider__content
+  absolute($left:50%,$top:250px)
+  transform translateX(-50%)
+  width 100%
+  max-width 900px
+  z-index 2
+
+.index-slider__title
+  font-size rem(72)
+  line-height 1.5
+  color #fff

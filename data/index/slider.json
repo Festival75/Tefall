@@ -1,0 +1,69 @@
+{
+  "slide1": {
+    "title" : {
+      "line1": "Дымный",
+      "line2": "дымный Smoke"
+    },
+    "alt" : "",
+    "image" : "",
+    "colors" : {
+      "title" : "Цвета",
+      "black" : {
+        "name" : "Черный",
+        "code" : "#000000"
+      },
+      "cherry" : {
+        "name" : "Вишнёвый",
+        "code" : "#d93639"
+      },
+      "gray" : {
+        "name" : "Серый графит",
+        "code" : "#9a988c"
+      }
+    },
+    "parameters" : {
+      "title" : "Параметры",
+      "diameter" : {
+        "value" : "30 cm",
+        "icon" : "diameter"
+      },
+      "amount" : {
+        "value" : "8,35 l",
+        "icon" : "amount"
+      }
+    }
+  },
+  "slide2": {
+    "title" : {
+      "line1": "Дымный дымный Smoke"
+    },
+    "alt" : "",
+    "image" : "",
+    "colors" : {
+      "title" : "Цвета",
+      "black" : {
+        "name" : "Черный",
+        "code" : "#000000"
+      },
+      "cherry" : {
+        "name" : "Вишнёвый",
+        "code" : "#d93639"
+      },
+      "gray" : {
+        "name" : "Серый графит",
+        "code" : "#9a988c"
+      }
+    },
+    "parameters" : {
+      "title" : "Параметры",
+      "diameter" : {
+        "value" : "30 cm",
+        "icon" : "diameter"
+      },
+      "amount" : {
+        "value" : "8,35 l",
+        "icon" : "amount"
+      }
+    }
+  }
+}

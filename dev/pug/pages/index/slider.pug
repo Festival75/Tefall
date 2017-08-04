@@ -1,8 +1,14 @@
 section.index-slider
+    .index-slider__controls.index-slider__controls--pref
+        +icon('arrowUp')
+    .index-slider__controls.index-slider__controls--next
+        +icon('arrowDown')
     .js-index-slider
-        .index-slider__item
-                img(src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице").index-slider__img
-        .index-slider__item
-            img(src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице").index-slider__img
-        .index-slider__item
-            img(src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице").index-slider__img
+        each object in indexSlider
+            .index-slider__item
+                    img(src="static/img/content/main-slider/slide1.jpg" alt="Слайдер на главной странице").index-slider__img
+                    .index-slider__content
+                        if(object.title['line2'])
+                        span.index-slider__title= object.title['line1']
+                                br
+                                | #{object.title['line2']}
