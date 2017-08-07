@@ -4,10 +4,11 @@
       "line1": "Дымный",
       "line2": "дымный Smoke"
     },
-    "alt" : "",
-    "image" : "",
+    "alt" : "Слайдер на главной странице",
+    "image" : "slide1.jpg",
+    "colorsTitle": "Цвета",
+    "parametersTitle": "Параметры",
     "colors" : {
-      "title" : "Цвета",
       "black" : {
         "name" : "Черный",
         "code" : "#000000"
@@ -22,7 +23,6 @@
       }
     },
     "parameters" : {
-      "title" : "Параметры",
       "diameter" : {
         "value" : "30 cm",
         "icon" : "diameter"
@@ -31,16 +31,21 @@
         "value" : "8,35 l",
         "icon" : "amount"
       }
+    },
+    "btn" : {
+      "link" : "javascript:void(0)",
+      "title" : "О кострюле"
     }
   },
   "slide2": {
     "title" : {
-      "line1": "Дымный дымный Smoke"
+      "line1": "Яболчное яблоко"
     },
-    "alt" : "",
-    "image" : "",
+    "alt" : "Слайдер на главной странице",
+    "image" : "slide2.jpg",
+    "colorsTitle": "Цвета",
+    "parametersTitle": "Параметры",
     "colors" : {
-      "title" : "Цвета",
       "black" : {
         "name" : "Черный",
         "code" : "#000000"
@@ -55,7 +60,6 @@
       }
     },
     "parameters" : {
-      "title" : "Параметры",
       "diameter" : {
         "value" : "30 cm",
         "icon" : "diameter"
@@ -64,6 +68,47 @@
         "value" : "8,35 l",
         "icon" : "amount"
       }
+    },
+    "btn" : {
+      "link" : "javascript:void(0)",
+      "title" : "О кострюле"
+    }
+  },
+  "slide3": {
+    "title" : {
+      "line1": "Клубничная клубника"
+    },
+    "alt" : "Слайдер на главной странице",
+    "image" : "slide3.jpg",
+    "colorsTitle": "Цвета",
+    "parametersTitle": "Параметры",
+    "colors" : {
+      "black" : {
+        "name" : "Черный",
+        "code" : "#000000"
+      },
+      "cherry" : {
+        "name" : "Вишнёвый",
+        "code" : "#d93639"
+      },
+      "gray" : {
+        "name" : "Серый графит",
+        "code" : "#9a988c"
+      }
+    },
+    "parameters" : {
+      "diameter" : {
+        "value" : "30 cm",
+        "icon" : "diameter"
+      },
+      "amount" : {
+        "value" : "8,35 l",
+        "icon" : "amount"
+      }
+    },
+    "btn" : {
+      "link" : "javascript:void(0)",
+      "title" : "О кострюле"
     }
   }
 }

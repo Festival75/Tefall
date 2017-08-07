@@ -1,5 +1,8 @@
 mixin icon(name,mod)
-	- mod = mod || ''
-	svg(class="icon icon-" + name + ' ' + mod)
-		use(xlink:href="/static/img/svg/symbol/sprite.svg#" + name)
+    - mod = mod || ''
+    svg(class="icon icon-" + name + ' ' + mod)
+        use(xlink:href="/static/img/svg/symbol/sprite.svg#" + name)
 
+mixin picMenuLink(link, title)
+    li.pic-menu-list__item
+        a(href=link)= title
