@@ -1,9 +1,9 @@
 section.pic-menu
     .container
-        .pic-menu__line
-            .pic-menu__50
-                .pic-menu__line
-                    .pic-menu__25
+        .row
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .row
+                    .col-xs-6.col-sm-6.col-md-6.col-lg-6
                         .pic-menu__item(style="background-image:url('static/img/content/pic-menu/furniture.jpg')")
                             .pic-menu__nav
                                 a(href="javascript:void(0)").pic-menu__title Мебель
@@ -14,7 +14,7 @@ section.pic-menu
                                     +picMenuLink('javascript:void(0);', 'Барная')
                                     +picMenuLink('javascript:void(0);', 'мебель')
                                     +picMenuLink('javascript:void(0);', 'Ещё 15 разделов')
-                    .pic-menu__25
+                    .col-xs-6.col-sm-6.col-md-6.col-lg-6
                         .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
                             .pic-menu__nav
                                 a(href="javascript:void(0)").pic-menu__title Хранение вина
@@ -23,12 +23,87 @@ section.pic-menu
                                     +picMenuLink('javascript:void(0);', 'Винные')
                                     +picMenuLink('javascript:void(0);', 'шкафы')
                                     +picMenuLink('javascript:void(0);', 'Ещё 3 раздела')
-                .pic-menu__line
-                    .pic-menu__item(style="background-image:url('static/img/content/pic-menu/applianses.jpg')")
+                .row
+                    .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                        .pic-menu__item(style="background-image:url('static/img/content/pic-menu/applianses.jpg')")
+                            .pic-menu__nav
+                                a(href="javascript:void(0)").pic-menu__title Крупная и мекая бытовая техника
+                                ul.pic-menu-list
+                                    +picMenuLink('javascript:void(0);', 'Холодильники')
+                                    +picMenuLink('javascript:void(0);', 'Морозильники')
+                                    +picMenuLink('javascript:void(0);', 'Варочные центры')
+                                    +picMenuLink('javascript:void(0);', 'Ещё 10 разделов')
+                                ul.pic-menu-list
+                                    +picMenuLink('javascript:void(0);', 'Кулеры')
+                                    +picMenuLink('javascript:void(0);', 'Пурефаеры')
+                                    +picMenuLink('javascript:void(0);', 'Чайники')
+                                    +picMenuLink('javascript:void(0);', 'Кофеварки')
+                                    +picMenuLink('javascript:void(0);', 'Ещё 27 разделов')
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .pic-menu__item.pic-menu__review(style="background-image:url('static/img/content/pic-menu/big.jpg')")
+                    img.pic-menu__review--man(src="static/img/content/pic-menu/man.png")
+                    .pic-menu__review--content
+                        span.pic-menu__review--title Лучшая кухонная утварь у вас
+                        p.pic-menu__review--text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et lacinia arcu. Mauris pellentesque maximus metus a volutpat. Sed dictum vestibulum justo eu mattis.
 
-            .pic-menu__item.pic-menu__item--big(style="background-image:url('static/img/content/pic-menu/big.jpg')")
-                span.pic-menu-review__title Лучшая кухонная утварь у вас
-                p.pic-menu-review__text lorem*2
-
-        .pic-menu__line
-        .pic-menu__line
+                        .pic-menu__review--info
+                            span.pic-menu__review--author Филипп Киркоров
+                            span.pic-menu__review--author-work певец?
+                    .pic-menu__review--bottom
+                        a(href="javascript:void(0)").g-btn Узнать больше
+        .row
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .row
+                    .col-xs-6.col-sm-6.col-md-6.col-lg-6
+                        .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
+                            .pic-menu__nav
+                                a(href="javascript:void(0)").pic-menu__title Бар и хрусталь
+                                ul.pic-menu-list
+                                    +picMenuLink('javascript:void(0);', 'Стекло и посуда')
+                                        +picMenuLink('javascript:void(0);', 'Ещё 32 элемента')
+                    .col-xs-6.col-sm-6.col-md-6.col-lg-6
+                        .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
+                            .pic-menu__nav
+                                a(href="javascript:void(0)").pic-menu__title Ножи
+                                ul.pic-menu-list
+                                    +picMenuLink('javascript:void(0);', 'Наборы ножей')
+                                    +picMenuLink('javascript:void(0);', 'Ножи')
+                                    +picMenuLink('javascript:void(0);', 'поварские')
+                                    +picMenuLink('javascript:void(0);', 'Ещё 11 разделов')
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
+                    .pic-menu__nav
+                        a(href="javascript:void(0)").pic-menu__title Посуда
+                        ul.pic-menu-list
+                            +picMenuLink('javascript:void(0);', 'Наборы посуды')
+                            +picMenuLink('javascript:void(0);', 'Наборы кастрюль')
+                            +picMenuLink('javascript:void(0);', 'Крышки и съемные')
+                            +picMenuLink('javascript:void(0);', 'ручки')
+                            +picMenuLink('javascript:void(0);', 'Сотейники и ковшы')
+                            +picMenuLink('javascript:void(0);', 'Ещё 20 разделов')
+        .row
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
+                    .pic-menu__nav
+                        a(href="javascript:void(0)").pic-menu__title Кухонная утварь
+                        ul.pic-menu-list
+                            +picMenuLink('javascript:void(0);', 'Наборы кухонных аксесуаров')
+                            +picMenuLink('javascript:void(0);', 'Банки для сыпучих хуючих')
+                            +picMenuLink('javascript:void(0);', 'Ещё 15 разделов')
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .row
+                    .col-xs-6.col-sm-6.col-md-6.col-lg-6
+                        .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
+                            .pic-menu__nav
+                                a(href="javascript:void(0)").pic-menu__title Сервировка
+                                ul.pic-menu-list
+                                    +picMenuLink('javascript:void(0);', 'Блюда для закусок')
+                                    +picMenuLink('javascript:void(0);', 'Менажницы')
+                                    +picMenuLink('javascript:void(0);', 'Ещё 15 разделов')
+                    .col-xs-6.col-sm-6.col-md-6.col-lg-6
+                        .pic-menu__item(style="background-image:url('static/img/content/pic-menu/wine.jpg')")
+                            .pic-menu__nav
+                                a(href="javascript:void(0)").pic-menu__title Текстиль
+                                ul.pic-menu-list
+                                    +picMenuLink('javascript:void(0);', 'Салфетки подставочные')
+                                    +picMenuLink('javascript:void(0);', 'Ещё 45 разделов')
